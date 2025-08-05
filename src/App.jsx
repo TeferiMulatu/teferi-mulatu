@@ -1,6 +1,14 @@
 import { useState } from "react";
 
-import { Navbar, Hero, About, Projects, Footer, Contact } from "./components";
+import {
+  Navbar,
+  Hero,
+  About,
+  Projects,
+  Footer,
+  Contact,
+  Skills,
+} from "./components";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,6 +20,7 @@ function App() {
         <main>
           <Hero />
           <About />
+          <Skills />
           <Projects />
           <Contact />
         </main>
