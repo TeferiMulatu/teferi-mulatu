@@ -8,6 +8,7 @@ import {
   Footer,
   Contact,
   Skills,
+  Education,
 } from "./components";
 
 function App() {
@@ -20,13 +21,13 @@ function App() {
         <main>
           <Hero />
           <About />
-          <Skills />
           <Projects />
+          <Skills />
+          <Education />
           <Contact />
         </main>
         <Footer />
       </div>
-      dd
     </div>
   );
 }
